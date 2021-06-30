@@ -170,6 +170,7 @@ while game:
     f=pygame.font.SysFont("Verdana",20)
     g=f.render(str(P1.score),True,(123,255,0))
     dis.blit(g,(dis_width/2,10))
+    print("dead")
 
     plat_gen(platforms,all_sprites)
     for  entity in all_sprites:
